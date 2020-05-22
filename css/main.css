@@ -5,6 +5,12 @@
     box-sizing: border-box;
   }
 
+ .container{
+      text-align: center;
+      margin-top: 80px;
+      padding: 0 5px;
+  }
+
   .container img{
       height: 200px;
       width: auto;
@@ -19,17 +25,12 @@
       margin: 15px 0;
   }
 
-  .container{
-      text-align: center;
-      margin-top: 80px;
-  }
-
    /* cademi */
-  #cademi .container{
+  body > :last-child{
     background-color: #f9f9f9;
   }
 
- #cademi img{
+ body > :last-child img{
      background-color: #428bca;
      border-radius: 50%;
      padding: 30px;
